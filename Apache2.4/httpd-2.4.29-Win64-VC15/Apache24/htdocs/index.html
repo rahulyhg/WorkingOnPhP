@@ -1,0 +1,60 @@
+﻿<?php
+require_once 'app/init.php';
+
+$itemsQuery =  $db->prepare("
+        SELECT id, name, done, 
+        FROM items 
+        WHERE  user = : user
+");
+
+
+$itemsQuery->execute([
+        'user' => $_SESSION['user_id'] 
+]);
+
+$items =            $itemsQuery->rowCount() ? $itemsQuery : [];
+
+foreach($items as $item){
+        <!--echo $item['name'], '<br />';--> 
+        print_r($item);
+
+}
+
+
+
+
+?>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <title>To Do</title>
+            <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+            <link href="http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="" />
+            <link rel="stylesheet" href="main.css" />
+
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        </head>
+
+    <body>
+        <div class="list">
+            <h1 class="header">To Do List</h1>
+
+            <ul class="items">
+                <li>
+                    <span class="item">Pick Up Shopping</span>
+                    <a href="#" class="done-button">Mark As Done</a>
+                </li>
+               </ul>
+
+            <form class="item-add" action="add.php" method="post">
+                <input type="text" name="name" placeholder="Type a new item here" class="" />
+                <input type="submit" value="Add" class="submit" />
+            </form>
+        </div>    
+    </body>
+</html>

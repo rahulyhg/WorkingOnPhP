@@ -1,0 +1,4 @@
+[Tue Feb 06 19:11:37.847009 2018] [mpm_winnt:notice] [pid 3444:tid 296] AH00455: Apache/2.4.29 (Win64) configured -- resuming normal operations
+[Tue Feb 06 19:11:37.847009 2018] [mpm_winnt:notice] [pid 3444:tid 296] AH00456: Apache Lounge VC15 Server built: Nov  3 2017 11:12:00
+[Tue Feb 06 19:11:37.848009 2018] [core:notice] [pid 3444:tid 296] AH00094: Command line: 'E:\\PhpFiles\\Apache2.4\\httpd-2.4.29-Win64-VC15\\Apache24\\bin\\httpd.exe -d E:/PhpFiles/Apache2.4/httpd-2.4.29-Win64-VC15/Apache24'
+[Tue Feb 06 19:11:37.850009 2018] [mpm_winnt:notice] [pid 3444:tid 296] AH00418: Parent: Created child process 5744
