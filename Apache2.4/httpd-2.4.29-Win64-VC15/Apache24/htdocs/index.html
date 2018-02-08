@@ -1,34 +1,34 @@
-﻿<?php
-require_once 'app/init.php';
-
-$itemsQuery =  $db->prepare("
-        SELECT id, name, done, 
-        FROM items 
-        WHERE  user = : user
-");
-
-
-$itemsQuery->execute([
-        'user' => $_SESSION['user_id'] 
-]);
-
-$items =            $itemsQuery->rowCount() ? $itemsQuery : [];
-
-foreach($items as $item){
-        <!--echo $item['name'], '<br />';--> 
-        print_r($item);
-
-}
-
-
-
-
-?>
+﻿<html>
+        <head>
+            <title>Hello Madrid!!</title>
+        </head>
+        <body>
+            <?php 
+             $first = "Godd Morning";
+            $second = " Have a Nice Day";
+            $third = $first;
+            echo $third;
+            echo "<br />";
+            $third .= $second;
+            echo    "{$third}<br />";
+            echo strtoupper($third);
+            echo "<br />";
+            echo strtolower($third);
+            echo "<br />";
+            echo ucwords($third);
+            echo "<br />";
+            echo $third;
+            ?>
+        </body>
+</html>
 
 
 
 
-<!DOCTYPE html>
+
+ 
+
+<!--<!DOCTYPE html>
 <html lang="en">
         <head>
             <meta charset="utf-8">
@@ -57,4 +57,5 @@ foreach($items as $item){
             </form>
         </div>    
     </body>
-</html>
+</html>-->
+ 
