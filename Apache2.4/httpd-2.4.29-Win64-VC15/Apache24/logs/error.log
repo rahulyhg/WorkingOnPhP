@@ -76,3 +76,9 @@ pm_winnt:notice] [pid 8296:tid 360] AH00455: Apache/2.4.29 (Win64) PHP/7.2.2RC1 
 [Thu Feb 08 18:09:11.318323 2018] [core:notice] [pid 7876:tid 360] AH00094: Command line: 'E:\\PhpFiles\\Apache2.4\\httpd-2.4.29-Win64-VC15\\Apache24\\bin\\httpd.exe -d E:/PhpFiles/Apache2.4/httpd-2.4.29-Win64-VC15/Apache24'
 [Thu Feb 08 18:09:11.320323 2018] [mpm_winnt:notice] [pid 7876:tid 360] AH00418: Parent: Created child process 7068
 [Thu Feb 08 18:09:11.695345 2018] [mpm_winnt:notice] [pid 7068:tid 252] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 08 18:34:14.915453 2018] [core:warn] [pid 1824:tid 260] AH00098: pid file E:/PhpFiles/Apache2.4/httpd-2.4.29-Win64-VC15/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Mar 08 18:34:15.586254 2018] [mpm_winnt:notice] [pid 1824:tid 260] AH00455: Apache/2.4.29 (Win64) PHP/7.2.2RC1 configured -- resuming normal operations
+[Thu Mar 08 18:34:15.586254 2018] [mpm_winnt:notice] [pid 1824:tid 260] AH00456: Apache Lounge VC15 Server built: Nov  3 2017 11:12:00
+[Thu Mar 08 18:34:15.586254 2018] [core:notice] [pid 1824:tid 260] AH00094: Command line: 'E:\\PhpFiles\\Apache2.4\\httpd-2.4.29-Win64-VC15\\Apache24\\bin\\httpd.exe -d E:/PhpFiles/Apache2.4/httpd-2.4.29-Win64-VC15/Apache24'
+[Thu Mar 08 18:34:15.586254 2018] [mpm_winnt:notice] [pid 1824:tid 260] AH00418: Parent: Created child process 1548
+[Thu Mar 08 18:34:15.960655 2018] [mpm_winnt:notice] [pid 1548:tid 252] AH00354: Child: Starting 64 worker threads.
