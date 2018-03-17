@@ -1,5 +1,5 @@
 
-<?
+<?php
 	try{
 		$conn = new PDO("sqlsrv:Server=.\SQLEXPRESS;Database=mydb;
 			null, null");
