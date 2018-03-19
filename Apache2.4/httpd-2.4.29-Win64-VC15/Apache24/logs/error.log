@@ -101,3 +101,10 @@
 [Sat Mar 17 14:57:15.467480 2018] [mpm_winnt:notice] [pid 1884:tid 360] AH00418: Parent: Created child process 1328
 [Sat Mar 17 14:57:16.445484 2018] [mpm_winnt:notice] [pid 1328:tid 252] AH00354: Child: Starting 64 worker threads.
 [Sat Mar 17 14:57:17.445513 2018] [mpm_winnt:notice] [pid 1132:tid 252] AH00364: Child: All worker threads have exited.
+[Sat Mar 17 16:48:48.971902 2018] [mpm_winnt:notice] [pid 1884:tid 360] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Mar 17 16:48:52.013908 2018] [mpm_winnt:notice] [pid 1328:tid 252] AH00364: Child: All worker threads have exited.
+[Sat Mar 17 16:48:54.197912 2018] [mpm_winnt:notice] [pid 1884:tid 360] AH00430: Parent: Child process 1328 exited successfully.
+[Mon Mar 19 14:49:50.604053 2018] [mpm_winnt:notice] [pid 1824:tid 360] AH00455: Apache/2.4.29 (Win64) PHP/7.2.2RC1 configured -- resuming normal operations
+[Mon Mar 19 14:49:50.682053 2018] [mpm_winnt:notice] [pid 1824:tid 360] AH00456: Apache Lounge VC15 Server built: Nov  3 2017 11:12:00
+[Mon Mar 19 14:49:50.682053 2018] [core:notice] [pid 1824:tid 360] AH00094: Command line: 'E:\\PhpFiles\\Apache2.4\\httpd-2.4.29-Win64-VC15\\Apache24\\bin\\httpd.exe -d E:/PhpFiles/Apache2.4/httpd-2.4.29-Win64-VC15/Apache24'
+[Mon Mar 19 14:49:50.682053 2018] [mpm_winnt:notice] [pid 1824:tid 360] AH00418: Parent: Created child process 1928
