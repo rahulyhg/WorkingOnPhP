@@ -71,7 +71,23 @@
  <html>
  <head>
  	<title>To Do List</title>
- 	<link rel="stylesheet"  href="htdocs/main.css">
+ 	<link rel="stylesheet" href="/main.css">
+ 	<style type="text/css">
+ 		body {
+	background-color: #eceff0;
+}
+
+body,
+input {
+	font: 1em "Open Sans", sans-serif;
+	color: "#363639";
+}
+
+a{
+	text-decoration: none;
+	border-bottom: 1px dashed #363639;
+}
+ 	</style>
  </head>
  <body>
  		<div class="list">
