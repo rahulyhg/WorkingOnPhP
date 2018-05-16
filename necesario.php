@@ -64,3 +64,25 @@
 		}
 		
  ?>
+
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>To Do List</title>
+ </head>
+ <body>
+ 		<div class="list">
+ 			<h1 class="header">To Do.</h1>
+ 				<ul>
+ 					<li><span class="item">Pick Up Shopping</span></li>
+ 					<li><span class="item done">Learn PhP.</span></li>
+ 				</ul>
+
+ 				<form action="add.php" method="post" class="item-add">
+ 					<input type="text" name="name" placeholder="Type a new item here please." class="input" autocomplete="off" required>
+ 					
+ 				</form>
+
+ 		</div>
+ </body>
+ </html>
