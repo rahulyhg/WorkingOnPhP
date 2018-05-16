@@ -69,6 +69,7 @@
  <html>
  <head>
  	<title>To Do List</title>
+ 	<link rel="stylesheet"  href="htdocs/main.css">
  </head>
  <body>
  		<div class="list">
@@ -80,7 +81,7 @@
 
  				<form action="add.php" method="post" class="item-add">
  					<input type="text" name="name" placeholder="Type a new item here please." class="input" autocomplete="off" required>
- 					
+ 					 <input type="submit" value="add" class="submit">
  				</form>
 
  		</div>
