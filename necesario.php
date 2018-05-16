@@ -48,7 +48,7 @@
 		require_once 'index.php';
 
 		$itemsQuery = $db->prepare("
-			SELECT id, username
+			SELECT id, username, gender
 			FROM employees 
 			WHERE user = :user;
 			");
@@ -60,8 +60,10 @@
 		$items = $itemsQuery->rowCount() ? $itemsQuery : [];
 
 		foreach($items as $item) {
-			print_r($item);
-		}
+			echo $item['name'], '<br>';
+}
+		// echo '<pre>', print_r($items), '</pre>';
+		
 		
  ?>
 
@@ -74,10 +76,14 @@
  <body>
  		<div class="list">
  			<h1 class="header">To Do.</h1>
- 				<ul>
+ 			<?php if(!empty($items)): ?>
+ 				<ul class="items">
  					<li><span class="item">Pick Up Shopping</span></li>
  					<li><span class="item done">Learn PhP.</span></li>
  				</ul>
+ 			<?php  else: ?>
+ 				<p>You Haven´t added items yet...!</p>
+ 			<?php endif; ?>
 
  				<form action="add.php" method="post" class="item-add">
  					<input type="text" name="name" placeholder="Type a new item here please." class="input" autocomplete="off" required>
