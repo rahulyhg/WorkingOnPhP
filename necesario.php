@@ -28,12 +28,13 @@
 
 		// print_r(PDO::getAvailableDrivers());
 
-		$handler = new PDO('mysql:host=127.0.0.1;dbname=mydb', 
-					'root', 'gatubelo=00');
+		
 
 		try {
+			$handler = new PDO('mysql:host=127.0.0.1;dbname=mydb', 
+					'root', 'gatubelo=00');
 			
-		} catch (Exception $e) {
+		} catch () {
 			
 		}
 
