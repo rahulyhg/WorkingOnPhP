@@ -2,7 +2,7 @@
 	
 // 		require_once 'index.php';
 
-// 		$handler = new PDO('mysql:host=127.0.0.1;dbname');
+		// $handler = new PDO('mysql:host=127.0.0.1;dbname');
 		
 // 		$itemsQuery = $db->prepare("
 // 			SELECT id, username, gender
@@ -26,7 +26,10 @@
 				// DEFINE ('DB_HOST', 'ManuP');
 				// DEFINE ('DB_NAME', 'mydb');	
 
-		print_r(PDO::getAvailableDrivers());
+		// print_r(PDO::getAvailableDrivers());
+
+		$handler = new PDO('mysql:host=127.0.0.1;dbname=mydb', 
+					'')
 
 
 
