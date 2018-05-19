@@ -35,20 +35,20 @@
 					'root', 'gatubelo=00');
 			$handler->setAttribute(PDO:: ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 		} catch (PDOException $e) {
-			echo "Caught";
+			echo $e->getMessage();
 		}
 
 
 
 
  ?>
-
+<!-- 
  <!DOCTYPE html>
  <html>
  <head>
  	<title>To Do List</title>
- 	<link rel="stylesheet" href="/main.css">
- 	<style type="text/css">
+ 	<link rel="stylesheet" href="/main.css"> -->
+ <!-- 	<style type="text/css">
  		body {
 	background-color: #eceff0;
 }
@@ -63,12 +63,12 @@ a{
 	text-decoration: none;
 	border-bottom: 1px dashed #363639;
 }
- 	</style>
- </head>
+ 	</style> -->
+ <!-- </head>
  <body>
  		<div class="list">
- 			<h1 class="header">To Do.</h1>
- 			<?php if(!empty($items)): ?>
+ 			<h1 class="header">To Do.</h1> -->
+ 		<!-- 	<?php if(!empty($items)): ?>
  				<ul class="items">
  					<?php foreach($items as $item): ?>
  					<li><span class="item"><?php echo $item['name']; ?></span></li>
@@ -77,13 +77,13 @@ a{
  				</ul>
  			<?php  else: ?>
  				<p>You Haven´t added items yet...!</p>
- 			<?php endif; ?>
+ 			<?php endif; ?> -->
 
- 				<form action="add.php" method="post" class="item-add">
+ 		<!-- 		<form action="add.php" method="post" class="item-add">
  					<input type="text" name="name" placeholder="Type a new item here please." class="input" autocomplete="off" required>
  					 <input type="submit" value="add" class="submit">
  				</form>
 
  		</div>
  </body>
- </html>
+ </html> -->
