@@ -1,32 +1,32 @@
 <?php 
 	
-		require_once 'index.php';
+// 		require_once 'index.php';
 
-		$handler = new PDO('mysql:host=127.0.0.1;dbname');
+// 		$handler = new PDO('mysql:host=127.0.0.1;dbname');
 		
-		$itemsQuery = $db->prepare("
-			SELECT id, username, gender
-			FROM employees 
-			WHERE user = :user;
-			");
+// 		$itemsQuery = $db->prepare("
+// 			SELECT id, username, gender
+// 			FROM employees 
+// 			WHERE user = :user;
+// 			");
 
-		$itemsQuery->execute([
-			'user' => $_SESSION['user_id']
-		]);
+// 		$itemsQuery->execute([
+// 			'user' => $_SESSION['user_id']
+// 		]);
 
-		$items = $itemsQuery->rowCount() ? $itemsQuery : [];
+// 		$items = $itemsQuery->rowCount() ? $itemsQuery : [];
 
-		foreach($items as $item) {
-			echo $item['name'], '<br>';
-}
-		echo '<pre>', print_r($items), '</pre>';
+// 		foreach($items as $item) {
+// 			echo $item['name'], '<br>';
+// }
+// 		echo '<pre>', print_r($items), '</pre>';
 		
 				// DEFINE ('DB_USER', 'root');
 				// DEFINE ('DB_PSWD', 'gatubelo=00');
 				// DEFINE ('DB_HOST', 'ManuP');
 				// DEFINE ('DB_NAME', 'mydb');	
 
-
+		print_r(PDO::getAvailableDrivers());
 
 
 
