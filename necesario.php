@@ -31,6 +31,12 @@
 		$handler = new PDO('mysql:host=127.0.0.1;dbname=mydb', 
 					'root', 'gatubelo=00');
 
+		try {
+			
+		} catch (Exception $e) {
+			
+		}
+
 
 
 
