@@ -1,26 +1,26 @@
 <?php 
 	
-		require_once 'index.php';
+// 		require_once 'index.php';
 
 	
 		
-		$itemsQuery = $db->prepare("
-			SELECT id, username, gender
-			FROM employees 
-			WHERE user = :user
-			");
+// 		$itemsQuery = $db->prepare("
+// 			SELECT id, username, gender
+// 			FROM employees 
+// 			WHERE user = :user
+// 			");
 
-		$itemsQuery->execute([
-			'user' => $_SESSION['user_id']
-		]); 
+// 		$itemsQuery->execute([
+// 			'user' => $_SESSION['user_id']
+// 		]); 
 
-		$items = $itemsQuery->rowCount() ? $itemsQuery : [];
+// 		$items = $itemsQuery->rowCount() ? $itemsQuery : [];
 
-		foreach($items as $item) {
-			// echo $item['name'], '<br>';
+// 		foreach($items as $item) {
+// 			// echo $item['name'], '<br>';
 
-			print_r($item);
-}
+// 			print_r($item);
+// }
 		// echo '<pre>', print_r($items), '</pre>';
 		
 				// DEFINE ('DB_USER', 'root');
@@ -32,13 +32,13 @@
 
 		
 
-		// try {
-		// 	$handler = new PDO('mysql:host=127.0.0.1;dbname=mydb', 
-		// 			'root', 'gatubelo=00');
-		// 	$handler->setAttribute(PDO:: ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-		// } catch (PDOException $e) {
-		// 	echo $e->getMessage();
-		// }
+		try {
+			$handler = new PDO('mysql:host=127.0.0.1;dbname=mydb', 
+					'root', 'gatubelo=00');
+			$handler->setAttribute(PDO:: ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+		} catch (PDOException $e) {
+			echo $e->getMessage();
+		}
 
 
 
