@@ -73,7 +73,7 @@ a{
  			<?php if(!empty($items)): ?>
  				<ul class="items">
  					<?php foreach($items as $item): ?>
- 					<li><span class="item"><?php echo $item['id']; ?></span></li>
+ 					<li><span class="item"><?php echo $item['name']; ?></span></li>
  					<li><span class="item done">Learn PhP.</span></li>
  				<?php endforeach; ?>
  				</ul>
