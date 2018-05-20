@@ -33,7 +33,7 @@
 		
 
 		try {
-			$handler = new PDO('mysql:host=127.0.0.1;dbname=mydb', 
+			$handler = new PDO('mysql:host=ManuP;dbname=mydb', 
 					'root', 'gatubelo=00');
 			
 		} catch (Exception $e) {
