@@ -17,7 +17,9 @@
 		$items = $itemsQuery->rowCount() ? $itemsQuery : [];
 
 		foreach($items as $item) {
-			echo $item['name'], '<br>';
+			// echo $item['name'], '<br>';
+
+			print_r($item);
 }
 		// echo '<pre>', print_r($items), '</pre>';
 		
@@ -71,7 +73,7 @@ a{
  			<?php if(!empty($items)): ?>
  				<ul class="items">
  					<?php foreach($items as $item): ?>
- 					<li><span class="item"><?php echo $item['name']; ?></span></li>
+ 					<li><span class="item"><?php echo $item['id']; ?></span></li>
  					<li><span class="item done">Learn PhP.</span></li>
  				<?php endforeach; ?>
  				</ul>
