@@ -35,6 +35,7 @@
 		try {
 			$handler = new PDO('mysql:host=ManuP;dbname=mydb', 
 					'root', 'gatubelo=00');
+			echo "$handler";
 			
 		} catch (Exception $e) {
 			echo $e->getMessage();
