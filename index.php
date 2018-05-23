@@ -12,7 +12,7 @@
 
         // session_start();
         // $_SESSION['user_id'] = 1;
-        if ($db = new PDO('mysql:dbname=mydb;host=127.0.0.1', 
+        if ($db = new PDO('mysql:dbname=mydb;host=localhost', 
         'root', 'gatubelo=00')) {
             echo "success";
         }
