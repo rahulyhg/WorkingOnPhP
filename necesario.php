@@ -17,11 +17,11 @@
 // 		$items = $itemsQuery->rowCount() ? $itemsQuery : [];
 
 // 		foreach($items as $item) {
-// 			// echo $item['name'], '<br>';
+// 			// echo $item['name'], '';
 
 // 			print_r($item);
 // }
-		// echo '<pre>', print_r($items), '</pre>';
+		// echo '', print_r($items), '';
 		
 				// DEFINE ('DB_USER', 'root');
 				// DEFINE ('DB_PSWD', 'gatubelo=00');
@@ -29,6 +29,8 @@
 				// DEFINE ('DB_NAME', 'mydb');	
 
 		// print_r(PDO::getAvailableDrivers());
+
+		echo "text";
 
 		
 
@@ -55,7 +57,7 @@
 <body>
 			<div>
 			<form>
-				
+					
 
 			</form>
 		</div>
