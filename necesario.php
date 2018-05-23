@@ -1,26 +1,26 @@
 <?php 
 	
-// 		require_once 'index.php';
+		require_once 'index.php';
 
 	
 		
-// 		$itemsQuery = $db->prepare("
-// 			SELECT id, username, gender
-// 			FROM employees 
-// 			WHERE user = :user
-// 			");
+		$itemsQuery = $db->prepare("
+			SELECT id, username, gender
+			FROM employees 
+			WHERE user = :user
+			");
 
-// 		$itemsQuery->execute([
-// 			'user' => $_SESSION['user_id']
-// 		]); 
+		$itemsQuery->execute([
+			'user' => $_SESSION['user_id']
+		]); 
 
-// 		$items = $itemsQuery->rowCount() ? $itemsQuery : [];
+		$items = $itemsQuery->rowCount() ? $itemsQuery : [];
 
-// 		foreach($items as $item) {
-// 			// echo $item['name'], '';
+		foreach($items as $item) {
+			// echo $item['name'], '';
 
-// 			print_r($item);
-// }
+			print_r($item);
+}
 		// echo '', print_r($items), '';
 		
 				// DEFINE ('DB_USER', 'root');
@@ -32,7 +32,7 @@
 
 		echo "text";
 
-		
+
 
 		// try {
 		// 	$handler = new PDO('mysql:host=ManuP;dbname=mydb', 
@@ -49,17 +49,3 @@
 
 
  ?>
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-			<div>
-			<form>
-					
-
-			</form>
-		</div>
-</body>
-</html>

@@ -10,15 +10,23 @@
     // phpinfo();
     // print_r(get_loaded_extensions()); 
 
-        session_start();
-        $_SESSION['user_id'] = 1;
-        $db = new PDO('mysql:dbname=mydb;host=localhost', 
-        'root', 'gatubelo=00');
-
+        // session_start();
+        // $_SESSION['user_id'] = 1;
+        if ($db = new PDO('mysql:dbname=mydb;host=127.0.0.1', 
+        'root', 'gatubelo=00')) {
+            echo "success";
+        }
+       else {
+        echo "you are not logged!";
+       }
+      
         // Handle this in some other way
 
         if(!isset($_SESSION['user_id'])){
             die('You are not signed in.');
+        }else
+        {
+            echo "jodido!";
         }
   
 ?>
