@@ -48,7 +48,8 @@
 			</ul>
 
 			<form class="item-add" action="add.php" method="post">
-				<input type="text" name="name" placeholder="">
+				<input type="text" name="name" placeholder="Type a new item here.">
+				<input type="submit" value="Add" class="submit">
 		</div>
 </body>
 </html>
