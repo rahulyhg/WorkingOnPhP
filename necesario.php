@@ -6,10 +6,9 @@
 <body>
 <?php 
 		echo $_POST['fname'];
-		echo "<br />";
 		echo $_POST['iname'];
 		echo $_POST['about'];
-
+		
 ?>
 
 <form action="necesario.php" method="post">
