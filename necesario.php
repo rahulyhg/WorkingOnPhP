@@ -37,6 +37,14 @@
 	<title>title</title>
 </head>
 <body>
-		
+		<div class="list">
+			<h1 class="header"></h1>
+
+			<ul class="items">
+				<li>
+					
+				</li>
+			</ul>
+		</div>
 </body>
 </html>
