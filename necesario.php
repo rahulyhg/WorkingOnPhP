@@ -34,11 +34,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>title</title>
+	<title>To Do</title>
 </head>
 <body>
 		<div class="list">
-			<h1 class="header"></h1>
+			<h1 class="header">To Do</h1>
 
 			<ul class="items">
 				<li>
@@ -48,8 +48,9 @@
 			</ul>
 
 			<form class="item-add" action="add.php" method="post">
-				<input type="text" name="name" placeholder="Type a new item here.">
+				<input type="text" name="name" placeholder="Type a new item here." class="">
 				<input type="submit" value="Add" class="submit">
+			</form>
 		</div>
 </body>
 </html>
