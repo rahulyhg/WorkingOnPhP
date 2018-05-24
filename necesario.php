@@ -39,7 +39,7 @@
 <body>
 		<div class="list">
 			<h1 class="header">To Do</h1>
-
+				<?php if(!empty($items)): ?>
 			<ul class="items">
 				<li>
 					<span class="item">Pick Up Shopping</span>
