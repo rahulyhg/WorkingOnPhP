@@ -48,7 +48,7 @@
 			</ul>
 
 			<form class="item-add" action="add.php" method="post">
-				<input type="text" >
+				<input type="text" name="name" placeholder="">
 		</div>
 </body>
 </html>
