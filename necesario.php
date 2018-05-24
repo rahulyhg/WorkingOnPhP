@@ -5,7 +5,7 @@
 </head>
 <body>
 <?php 
-		
+		echo $_POST['fname'];
 ?>
 
 <form action="necesario.php" method="post">
