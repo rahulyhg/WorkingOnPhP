@@ -9,7 +9,9 @@
 ?>
 
 <form action="necesario.php" method="post">
-	First Name: <input type="text" name="fname" >
+	First Name: <input type="text" name="fname"><br />
+	Last Name: <input type="text" name="iname"><br />
+	About: <textarea name="about"></textarea>
 </form>
 </body>
 </html>
