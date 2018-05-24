@@ -8,6 +8,7 @@
 		echo $_POST['fname'];
 		echo "<br />";
 		echo $_POST['iname'];
+		echo "<br />";
 		echo $_POST['about'];
 
 ?>
