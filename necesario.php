@@ -8,6 +8,8 @@
 		
 ?>
 
-<form action="necesario.php">
+<form action="necesario.php" method="post">
+	
+</form>
 </body>
 </html>
