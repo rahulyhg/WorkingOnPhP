@@ -20,8 +20,8 @@
 		foreach($items as $item) {
 			echo $item['name'], '<br>';
 
-			// print_r($item);
-}
+			print_r($item);
+			}
 
 
 
