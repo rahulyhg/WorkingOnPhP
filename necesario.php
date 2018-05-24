@@ -15,10 +15,10 @@
 			'user' => $_SESSION['user_id']
 		]); 
 
-		$items = $itemsQuery->rowCount() ? $itemsQuery : []
+		$items = $itemsQuery->rowCount() ? $itemsQuery : [];
 
 		foreach($items as $item) {
-			echo $item['name'], '<br>';
+		
 
 			print_r($item);
 			}
