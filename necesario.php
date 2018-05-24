@@ -47,6 +47,7 @@
 				</li>
 			</ul>
 		<?php else: ?> 
+			<p>You Haven´t added any items yet shit!</p>
 		<?php endif; ?>
 
 			<form class="item-add" action="add.php" method="post">
