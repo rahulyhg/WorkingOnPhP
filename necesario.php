@@ -7,7 +7,12 @@
 <?php 
 		if(isset($_POST['submit'])){
 			if(empty($_POST['fname'])){
-				
+				echo "First Name is required";
+			}
+
+
+			if(empty($_POST['iname'])){
+				echo "Last Name is required";
 			}
 		}
 ?>
