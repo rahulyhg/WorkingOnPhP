@@ -36,7 +36,9 @@
 	<input type="reset" name="reset">
 
 	<input type="submit" name="submit" value="Go">
-</form></div>
+</form>
+		<input type="hidden"  name="token" value="<?php echo $token;?>"/>
+</div>
 		</div>
 
 </body>
