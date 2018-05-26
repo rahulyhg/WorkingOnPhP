@@ -16,7 +16,7 @@
 
 		<div style="margin:3em;"> 
 			<div><form action="necesario.php" method="post">
-			First Name: <input type="text" name="fname"><br />
+			First Name: <font color=red*>*</font><input type="text" name="fname"><br />
 			Last Name: <input type="text" name="iname"><br />
 			About: <textarea name="about"></textarea><br />
 
