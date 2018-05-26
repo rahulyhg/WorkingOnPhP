@@ -5,13 +5,13 @@
 </head>
 <body>
 <?php 
-		if(isset(var))
+		if(isset($_POST['submit'])){
 		echo $_POST['fname'];
 		echo "<br />";
 		echo $_POST['iname'];
 		echo "<br />";
 		echo $_POST['about'];
-
+		}
 ?>
 
 		<div style="margin:3em;"> 
