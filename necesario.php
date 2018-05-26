@@ -5,11 +5,12 @@
 </head>
 <body>
 <?php 
-		// echo $_POST['fname'];
-		// echo "<br />";
-		// echo $_POST['iname'];
-		// echo "<br />";
-		// echo $_POST['about'];
+		if(isset(var))
+		echo $_POST['fname'];
+		echo "<br />";
+		echo $_POST['iname'];
+		echo "<br />";
+		echo $_POST['about'];
 
 ?>
 
