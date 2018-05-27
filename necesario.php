@@ -55,8 +55,13 @@
 		<h1 class="header">To do</h1>
 
 		<ul class="items">
-			
+			<li>
+				<span class="item">Pick up shopping</span>
+				<a href="#" class="done-button">Mark as done</a>
+			</li>
 		</ul>
+
+		<for 
 	</div>
 </body>
 </html>
