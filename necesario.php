@@ -1,12 +1,13 @@
 
 <?php
-		require_once('index.php');
-
+		// require_once('index.php');
+		$link = 'mysql:host=localhost;dbname=mydb';
 		$usuario =  'root';
 		$pass = 'gatubelo=00';
 
-		tru{
-
+		try{
+				$db = new PDO(, $link
+        'root', 'gatubelo=00')
 		} catch(PDOException $e){
 			print "Error!: " .$e->getMessage()."<br/>";
 			die();
