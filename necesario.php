@@ -5,7 +5,12 @@
 		$itemsQuery = $mydb->prepare("
 			SELECT id, username, gender
 			FROM employees
-			")
+			WHERE user = :user;
+			");
+
+		$itemsQuery->execute([
+			'user' =>$_SESSION['user_id'];
+		]);
 
 
 
