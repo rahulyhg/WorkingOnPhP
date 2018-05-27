@@ -56,10 +56,13 @@
 
 		<?php if(!empty($items)): ?>
 		<ul class="items">
-			<li>
-				<span class="item">Pick up shopping</span>
-				<a href="#" class="done-button">Mark as done</a>
-			</li>
+			<?php  foreach($items as $item): ?>
+
+						<li>
+							<span class="item">Pick up shopping</span>
+							<a href="#" class="done-button">Mark as done</a>
+						</li>
+					<?php endforeach;?>
 		</ul>
 	<?php else: ?>
 		<p>You haven´t added anything.
