@@ -2,14 +2,14 @@
 <?php
 		require_once('index.php');
 
-		$itemsQuery = $mydb->prepare("
+		$itemsQuery = $db->prepare("
 			SELECT id, username, gender
 			FROM employees
 			WHERE user = :user;
 			");
 
 		$itemsQuery->execute([
-			'user' =>$_SESSION['user_id'];
+			'user' =>$_SESSION['user_id']
 		]);
 
 		$items = $itemsQuery->rowCount() ? $itemsQuery : [];
