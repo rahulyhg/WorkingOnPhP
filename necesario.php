@@ -1,6 +1,15 @@
 
 <?php
-		$token = $_SESSION['token'] = md5(uniqid(mt_rand(), true)); 
+		require_once('index.php');
+
+		$usuario =  'root';
+		$pass = 'gatubelo=00';
+
+		tru{
+
+		} catch(PDOException $e){
+			print
+		}
 
 
 
@@ -11,7 +20,7 @@
 
 
 
-
+<!-- 
 <html>
 <html>
 <head>
@@ -35,4 +44,4 @@
 		</div>
 
 </body>
-</html>
+</html> -->
