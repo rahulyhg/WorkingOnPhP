@@ -7,7 +7,7 @@
 
 		try{
 				$db = new PDO(, $link
-        'root', 'gatubelo=00')
+        $usuario, $pass);
 		} catch(PDOException $e){
 			print "Error!: " .$e->getMessage()."<br/>";
 			die();
