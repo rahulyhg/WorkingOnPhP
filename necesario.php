@@ -7,7 +7,7 @@
 
 		try{
 				$db = new PDO($link
-        $usuario, $pass);
+        ,$usuario, $pass);
 
 				echo 'Conectado'; 
 		} catch(PDOException $e){
