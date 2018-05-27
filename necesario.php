@@ -62,7 +62,8 @@
 		</ul>
 
 		<form class="item-add" action="add.php2" method="post">
-			
+			<input type="text"  name="name" placeholder="Type a new item here." class="">
+			<input type="submit" value="Add" class="submit">
 		</form>
 	</div>
 </body>
