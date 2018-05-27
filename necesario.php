@@ -61,8 +61,8 @@
 				<a href="#" class="done-button">Mark as done</a>
 			</li>
 		</ul>
-
-		
+	<?php else: 
+	<?php endif; ?>
 
 		<form class="item-add" action="add.php2" method="post">
 			<input type="text"  name="name" placeholder="Type a new item here." class="">
