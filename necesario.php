@@ -61,7 +61,9 @@
 			</li>
 		</ul>
 
-		<for 
+		<form class="item-add" action="add.php2" method="post">
+			
+		</form>
 	</div>
 </body>
 </html>
