@@ -5,7 +5,7 @@
 		$itemsQuery = $db->prepare("
 			SELECT id, username, gender
 			FROM employees
-			WHERE user = :user;
+			WHERE user = :user
 			");
 
 		$itemsQuery->execute([
@@ -15,7 +15,8 @@
 		$items = $itemsQuery->rowCount() ? $itemsQuery : [];
 
 		foreach($items as $item){
-			echo $item['name'], '<br>';
+			// echo $item['name'], '<br>';
+			print_r($item);
 		}
 
 
