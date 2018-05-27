@@ -61,7 +61,8 @@
 				<a href="#" class="done-button">Mark as done</a>
 			</li>
 		</ul>
-	<?php else: 
+	<?php else: ?>
+		<p>You haven´t added anything.
 	<?php endif; ?>
 
 		<form class="item-add" action="add.php2" method="post">
