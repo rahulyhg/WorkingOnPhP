@@ -18,18 +18,7 @@
 	<title></title>
 </head>
 <body>
-<?php 
-		if(isset($_POST['submit'])){
-			if(empty($_POST['fname'])){
-				echo "First Name is required";
-			}
 
-
-			if(empty($_POST['iname'])){
-				echo "Last Name is required";
-			}
-		}
-?>
 
 		<div style="margin:3em;"> 
 			<div><form action="necesario.php" method="post">
