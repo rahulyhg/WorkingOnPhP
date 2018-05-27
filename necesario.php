@@ -1,6 +1,11 @@
 
 <?php
-		// require_once('index.php');
+		require_once('index.php');
+
+		$itemsQuery = $mydb->prepare("
+			SELECT id, username, gender
+			FROM employees
+			")
 
 
 
