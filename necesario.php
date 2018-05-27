@@ -1,6 +1,6 @@
 
 <?php
-		require_once('/htdocs/index.php');
+		require_once('index.php');
 
 		$itemsQuery = $db->prepare("
 			SELECT id, username, gender
