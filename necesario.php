@@ -25,23 +25,7 @@
 
 ?>
 
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-		<div>
-			<ul>
-				<li class="filas"><? php foreach($db->query('SELECT * FROM `employees`') as $fila){
-					print_r .filas.($fila);
-				}
-				?>
-				</li>
-			</ul>
-		</div>
-</body>
-</html>
+
 
 <!-- 
 <html>
