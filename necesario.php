@@ -54,12 +54,15 @@
 	<div class="list">
 		<h1 class="header">To do</h1>
 
+		<?php if(!empty($items)): ?>
 		<ul class="items">
 			<li>
 				<span class="item">Pick up shopping</span>
 				<a href="#" class="done-button">Mark as done</a>
 			</li>
 		</ul>
+
+		
 
 		<form class="item-add" action="add.php2" method="post">
 			<input type="text"  name="name" placeholder="Type a new item here." class="">
