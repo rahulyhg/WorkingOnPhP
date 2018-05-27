@@ -8,7 +8,8 @@
 		tru{
 
 		} catch(PDOException $e){
-			print
+			print "Error!: " .$e->getMessage()."<br/>";
+			die();
 		}
 
 
