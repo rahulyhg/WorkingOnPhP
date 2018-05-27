@@ -11,7 +11,7 @@
 
 				echo 'Conectado'; 
 
-				foreach($pdo->query('SELECT * FROM `employees`') as $fila){
+				foreach($db->query('SELECT * FROM `employees`') as $fila){
 					print_r($fila);
 				}
 
