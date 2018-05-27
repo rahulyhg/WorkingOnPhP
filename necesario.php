@@ -12,6 +12,12 @@
 			'user' =>$_SESSION['user_id'];
 		]);
 
+		$items = $itemsQuery->rowCount() ? $itemsQuery : [];
+
+		foreach($items as $item){
+			echo $item['name'], '<br>';
+		}
+
 
 
 		// $link = 'mysql:host=localhost;dbname=mydb';
