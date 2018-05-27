@@ -5,7 +5,7 @@
 		$itemsQuery = $db->prepare("
 			SELECT id, username, gender
 			FROM employees
-			WHERE user = :user
+		
 			");
 
 		$itemsQuery->execute([
