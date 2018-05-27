@@ -10,6 +10,11 @@
         ,$usuario, $pass);
 
 				echo 'Conectado'; 
+
+				foreach($pdo->query('SELECT * FROM `employees`') as $fila){
+					print_r($fila);
+				}
+
 		} catch(PDOException $e){
 			print "Error!: " .$e->getMessage()."<br/>";
 			die();
