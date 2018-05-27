@@ -45,18 +45,18 @@
 
 ?>
 
-
-
-<!-- 
-<html>
+<!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>To do</title>
 </head>
 <body>
+	<div class="list">
+		<h1 class="header">To do</h1>
 
-
-		
-
+		<ul class="items">
+			
+		</ul>
+	</div>
 </body>
-</html> -->
+</html>
