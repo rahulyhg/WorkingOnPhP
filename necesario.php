@@ -60,7 +60,7 @@
 			<?php  foreach($items as $item): ?>
 
 						<li>
-							<span class="item"><?php echo$item['']; ?></span>
+							<span class="item"><?php echo$item['name']; ?></span>
 							<a href="#" class="done-button">Mark as done</a>
 						</li>
 					<?php endforeach; ?>
