@@ -63,10 +63,10 @@
 							<span class="item"><?php echo$item['']; ?></span>
 							<a href="#" class="done-button">Mark as done</a>
 						</li>
-					<?php endforeach;?>
+					<?php endforeach; ?>
 		</ul>
 	<?php else: ?>
-		<p>You haven´t added anything.
+		<p>You haven´t added anything.</p>
 	<?php endif; ?>
 
 		<form class="item-add" action="add.php2" method="post">
