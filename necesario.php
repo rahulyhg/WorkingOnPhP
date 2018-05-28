@@ -16,7 +16,7 @@
 
 		foreach($items as $item){
 			// echo $item['name'], '<br>';
-			print_r($item);
+			
 		}
 
 
@@ -55,11 +55,12 @@
 		<h1 class="header">To do</h1>
 
 		<?php if(!empty($items)): ?>
+
 		<ul class="items">
 			<?php  foreach($items as $item): ?>
 
 						<li>
-							<span class="item"><?php echo$item['name']; ?></span>
+							<span class="item"><?php echo$item['']; ?></span>
 							<a href="#" class="done-button">Mark as done</a>
 						</li>
 					<?php endforeach;?>

@@ -3,7 +3,7 @@
         $_SESSION['user_id'] = 1;
         if ($db = new PDO('mysql:host=localhost;dbname=mydb;', 
         'root', 'gatubelo=00')) {
-            echo "success";
+            // echo "success";
         }
        else {
         echo "you are not logged!";
@@ -15,7 +15,7 @@
             die('You are not signed in.');
         }else
         {
-            echo "jodido!";
+            // echo "jodido!";
         }
   
 ?>
