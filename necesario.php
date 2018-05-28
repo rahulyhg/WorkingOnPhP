@@ -14,10 +14,10 @@
 
 		$items = $itemsQuery->rowCount() ? $itemsQuery : [];
 
-		// foreach($items as $item){
-		// 	// echo $item['name'], '<br>';
+		foreach($items as $item){
+			echo $item['name'], '<br>';
 			
-		// }
+		}
 
 
 
