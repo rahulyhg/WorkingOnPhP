@@ -12,7 +12,7 @@
 			'user' =>$_SESSION['user_id']
 		]);
 
-		echo itemsQuery;
+		
 
 		// $items = $itemsQuery->rowCount() ? $itemsQuery : [];
 
