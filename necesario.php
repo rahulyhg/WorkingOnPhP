@@ -12,12 +12,14 @@
 			'user' =>$_SESSION['user_id']
 		]);
 
-		$items = $itemsQuery->rowCount() ? $itemsQuery : [];
+		echo $itemsQuery;
 
-		foreach($items as $item){
-			echo $item['name'], '<br>';
+		// $items = $itemsQuery->rowCount() ? $itemsQuery : [];
+
+		// foreach($items as $item){
+		// 	echo $item['name'], '<br>';
 			
-		}
+		// }
 
 
 
