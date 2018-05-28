@@ -15,7 +15,7 @@
 		$items = $itemsQuery->rowCount() ? $itemsQuery : [];
 
 		foreach($items as $item){
-			echo $item['name'], '<br>';
+			echo $item['user_id'], '<br>';
 			
 		}
 
