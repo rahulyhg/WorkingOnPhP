@@ -59,7 +59,10 @@
 		<?php if(!empty($items)): ?>
 
 		<ul class="items">
-			
+			<li>
+				<span></span>
+			</li>
+
 		</ul>
 	<?php else: ?>
 		<p>You haven´t added anything.</p>
