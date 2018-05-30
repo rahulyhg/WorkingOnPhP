@@ -62,8 +62,8 @@
 			<?php  foreach($items as $item): ?>
 
 						<li>
-							<span class="item<?php echo $item['done'] ? ' done' : '' ?>	"><?php echo$item['username']; ?></span>
-							<?php if(!$item['done']): ?>
+							<span class="item<?php echo $item['id'] ? ' id' : '' ?>	"><?php echo$item['user']; ?></span>
+							<?php if(!$item['id']): ?>
 							<a href="#" class="done-button">Mark as done</a>
 						<?php endif; ?>
 						</li>
