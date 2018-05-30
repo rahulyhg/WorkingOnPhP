@@ -63,6 +63,7 @@
 
 						<li>
 							<span class="item<?php echo $item['done'] ? ' done' : '' ?>	"><?php echo$item['username']; ?></span>
+							
 							<a href="#" class="done-button">Mark as done</a>
 						</li>
 					<?php endforeach; ?>
