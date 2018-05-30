@@ -3,8 +3,8 @@
 		require_once('index.php');
 
 		$itemsQuery = $db->prepare("
-			SELECT id, username, gender
-			FROM employees
+			SELECT id, user, category
+			FROM jodidosTodos
 		
 			");
 
