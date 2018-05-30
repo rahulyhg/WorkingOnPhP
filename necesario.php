@@ -59,11 +59,12 @@
 		<?php if(!empty($items)): ?>
 
 		<ul class="items">
+			<?php foreach($items as $item): ?>
 			<li>
 				<span class="item"></span>
-				<a href="#" class="done-button"></a>
+				<a href="#" class="done-button">mark as done</a>
 			</li>
-
+			<?php endforeach; ?>
 		</ul>
 	<?php else: ?>
 		<p>You haven´t added anything.</p>
