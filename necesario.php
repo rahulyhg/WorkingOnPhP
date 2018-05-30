@@ -63,7 +63,7 @@
 
 						<li>
 							<span class="item<?php echo $item['done'] ? ' done' : '' ?>	"><?php echo$item['username']; ?></span>
-							<?php if($item['done']): ?>
+							<?php if(!$item['done']): ?>
 							<a href="#" class="done-button">Mark as done</a>
 						<?php endif; ?>
 						</li>
