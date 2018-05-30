@@ -59,15 +59,7 @@
 		<?php if(!empty($items)): ?>
 
 		<ul class="items">
-			<?php foreach($items as $item): ?>
-
-						<li>
-							<span class="item<?php echo $item['category'] ? ' category' : '' ?>	"><?php echo$item['user']; ?></span>
-							<?php if(!$item['category']): ?>
-							<a href="#" class="done-button">Mark as done</a>
-						<?php endif; ?>
-						</li>
-					<?php endforeach; ?>
+			
 		</ul>
 	<?php else: ?>
 		<p>You haven´t added anything.</p>
