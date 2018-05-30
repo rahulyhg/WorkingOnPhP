@@ -60,7 +60,8 @@
 
 		<ul class="items">
 			<li>
-				<span></span>
+				<span class="item"></span>
+				<a href="#" class="done-button"></a>
 			</li>
 
 		</ul>
