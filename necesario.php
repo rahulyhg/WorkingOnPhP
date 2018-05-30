@@ -61,7 +61,7 @@
 		<ul class="items">
 			<?php foreach($items as $item): ?>
 			<li>
-				<span class="item"></span>
+				<span class="item"><?php echo $item['user']; ?></span>
 				<a href="#" class="done-button">mark as done</a>
 			</li>
 			<?php endforeach; ?>
