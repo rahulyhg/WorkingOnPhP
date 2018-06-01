@@ -71,17 +71,7 @@
 		<p>You haven´t added anything.</p>
 	<?php endif; ?>
 
-		<?php foreach($items as $item): ?>
-			<li>
-				<span class="item<?php echo $item['category'] ? ' done' : 
-				'' ?> "><?php echo $item['user']; ?></span>
-				<a href="#" class="done-button">mark as done</a>
-			</li>
-			<?php endforeach; ?>
-		</ul>
-	<?php else: ?>
-		<p>You haven´t added anything.</p>
-	<?php endif; ?>
+	
 
 		<form class="item-add" action="add.php2" method="post">
 			<input type="text"  name="name" placeholder="Type a new item here." class="">
