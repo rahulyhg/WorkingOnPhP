@@ -67,7 +67,7 @@
 			</li>
 			<?php endforeach; ?>
 		</ul>
-	<?php else: ?>
+	?php else: ?>
 		<p>You haven´t added anything.</p>
 	<?php endif; ?>
 
