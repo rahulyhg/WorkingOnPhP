@@ -51,10 +51,7 @@
 <html>
 <head>
 	<title>To do</title>
-</head>
-<body>
-	<div class="list">
-		<h1 class="header">To do</h1>
+<
 
 		<?php if(!empty($items)): ?>
 
