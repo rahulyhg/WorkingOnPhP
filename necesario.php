@@ -58,7 +58,7 @@
 		<ul class="items">
 			<?php foreach($items as $item): ?>
 			<li>
-				<span class="item<?php echo $item['category'] ? ' done' : 
+				<span class="item<?php echo $item[''] ? ' done' : 
 				'' ?> "><?php echo $item['user']; ?></span>
 				<a href="#" class="done-button">mark as done</a>
 			</li>
