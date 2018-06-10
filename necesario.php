@@ -76,11 +76,7 @@
 							<span class="item">jodidododod</span>
 							<a href="#" class="done-button">jodidos</a>
 						</li>
-			<?php endforeach; ?>
-			</ul>
-		<?php else: ?>
-			<p>You haven´t added any items yet.</p>
-		<?php endif; ?>
+		
 
 
 			<form class="item-add" action"add.php" method="post">
