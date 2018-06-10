@@ -16,6 +16,13 @@
 
 		$items = $itemsQuery->rowCount() ? $itemsQuery : [];
 
+
+
+
+		foreach($items as $item){
+			 echo $item['user'], '<br>';
+		}
+
 		// foreach($items as $item){
 		// 	echo $item['user'], '<br>';
 			
