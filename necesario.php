@@ -71,10 +71,10 @@
 
 			<ul class="items">
 
-				<?php foreach($items as $item): ?>
+				
 						<li>
-							<span class="item"><?php echo $item['user']; ?></span>
-							<a href="#" class="done-button"></a>
+							<span class="item">jodidododod</span>
+							<a href="#" class="done-button">jodidos</a>
 						</li>
 			<?php endforeach; ?>
 			</ul>
