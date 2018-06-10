@@ -71,7 +71,7 @@
 
 			<ul class="items">
 
-				<?php foreach($item as $items): ?>
+				<?php foreach($items as $item): ?>
 						<li>
 							<span class="item"><?php echo $item['user']; ?></span><br />
 							<a href="#" class="done-button">jodidos</a>
