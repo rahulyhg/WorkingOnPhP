@@ -67,18 +67,20 @@
 	<div class="list">
 		<h1 class="header">To Do.</h1>
 
-	
+	<?php if(!empty($items)): ?>
 
 			<ul class="items">
 
-				
+				<?php foreach($items as $item): ?>
 						<li>
-							<span class="item">jodidododod</span>
+							<span class="item">jodidododod</span><br />
 							<a href="#" class="done-button">jodidos</a>
 						</li>
-		
-
-
+				<?php endforeach; ?>
+					</ul>
+					<?php else: ?>
+			<p>You haven´t added any items yet.</p>
+				<?php endif; ?>
 			<form class="item-add" action"add.php" method="post">
 				<input type="text" name="name" placeholder="Type Your Name" class="">
 				<input type="submit" value="Add" class="submit">
