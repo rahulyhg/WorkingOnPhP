@@ -68,6 +68,15 @@
 		<h1 class="header">To Do.</h1>
 
 		<?php if(!empty($items)): ?>
+
+			<ul class="items">
+				<li>
+					<span class="item"></span>
+					<a href="#" class="done-button"></a>
+				</li>
+			</ul>
+
+			<form class="item-add" action"add.php" method="post">
 	</div>
 
 
