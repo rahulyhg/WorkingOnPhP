@@ -71,7 +71,7 @@
 
 			<ul class="items">
 
-				<?php foreach($itemQuery as $item): ?>
+				<?php foreach($item as $item): ?>
 						<li>
 							<span class="item"><?php echo $item['category']; ?></span><br />
 							<a href="#" class="done-button">jodidos</a>
