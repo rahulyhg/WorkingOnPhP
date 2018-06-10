@@ -54,3 +54,23 @@
 
 ?>
 
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To Do List</title>
+</head>
+<body>
+
+		<?php if(!empty($items)): ?>
+
+		<ul class="items">
+			<?php foreach($items as $item): ?>
+			<li>
+				<span class="item<?php echo $item[''] ? ' done' : 
+				'' ?> "><?php echo $item['user']; ?></span>
+				<a href="#" class="done-button">mark as done</a>
+			</li>
+			<?php endforeach; ?>
+			
+</body>
+</html>
