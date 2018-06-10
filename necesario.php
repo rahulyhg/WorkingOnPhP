@@ -70,13 +70,16 @@
 		<?php if(!empty($items)): ?>
 
 			<ul class="items">
-				<li>
-					<span class="item"></span>
-					<a href="#" class="done-button"></a>
-				</li>
+
+				<?php foreach($items as $item): ?>
+						<li>
+							<span class="item"></span>
+							<a href="#" class="done-button"></a>
+						</li>
+			<?php endforeach; ?>
 			</ul>
 		<?php else: ?>
-			<p>You haven´t added any items yet.
+			<p>You haven´t added any items yet.</p>
 		<?php endif; ?>
 
 
