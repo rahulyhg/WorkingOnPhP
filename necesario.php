@@ -20,7 +20,7 @@
 
 
 		foreach($items as $item){
-			 echo $item['user'], '<br>';
+			 echo $item['user'], '<br>', $item['category'];
 		}
 
 		// foreach($items as $item){
@@ -61,16 +61,14 @@
 </head>
 <body>
 
-		<?php if(!empty($items)): ?>
 
-		<ul class="items">
-			<?php foreach($items as $item): ?>
-			<li>
-				<span class="item<?php echo $item[''] ? ' done' : 
-				'' ?> "><?php echo $item['user']; ?></span>
-				<a href="#" class="done-button">mark as done</a>
-			</li>
-			<?php endforeach; ?>
+
+
+
+
+
+
+
 			
 </body>
 </html>
