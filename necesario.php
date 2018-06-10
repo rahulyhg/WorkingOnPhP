@@ -20,7 +20,9 @@
 
 
 		foreach($items as $item){
-			 echo $item['user'], '<br>', $item['category'];
+			 // echo $item['user'], '<br>', $item['category'];
+
+			print_r($item);
 		}
 
 		// foreach($items as $item){
@@ -62,7 +64,11 @@
 <body>
 
 
+	<div class="list">
+		<h1 class="header">To Do.</h1>
 
+		
+	</div>
 
 
 
