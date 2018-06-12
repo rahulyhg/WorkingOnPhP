@@ -73,7 +73,7 @@
 
 				<?php foreach($items as $item): ?>
 						<li>
-							<span class="item<?php echo $item['user'] ? ' done' : '' ?>"><?php echo $item['user']; ?></span><br />
+							<span class="item<?php echo $item['done'] ? ' done' : '' ?>"><?php echo $item['user']; ?></span><br />
 							<?php if(!$item['user']): ?>
 							<a href="#" class="done-button">jodidos</a>
 								<?php endif; ?>
