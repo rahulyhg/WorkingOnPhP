@@ -74,7 +74,7 @@
 				<?php foreach($items as $item): ?>
 						<li>
 							<span class="item<?php echo $item['user'] ? ' done' : '' ?>"><?php echo $item['user']; ?></span><br />
-							<?php if(!$item['user']): ?>
+							<?php if(!$item['']): ?>
 							<a href="#" class="done-button">jodidos</a>
 								<?php endif; ?>
 						</li>
@@ -87,7 +87,7 @@
 				<input type="text" name="name" placeholder="Type Your Name" class="">
 				<input type="submit" value="Add" class="submit">
 			</form>	
-			
+
 	</div>
 
 
