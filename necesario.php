@@ -69,12 +69,12 @@
 
 	<?php if(!empty($items)): ?>
 
-			<ul class="items">
+			<ul class="items">	
 
 				<?php foreach($items as $item): ?>
 						<li>
 							<span class="item<?php echo $item['user'] ? ' done' : '' ?>"><?php echo $item['user']; ?></span><br />
-							<?php if($item['user']): ?>
+							<?php if(!$item['user']): ?>
 							<a href="#" class="done-button">jodidos</a>
 								<?php endif; ?>
 						</li>
@@ -83,6 +83,10 @@
 					<?php else: ?>
 						<p>You haven´t added any items yet.</p>
 				<?php endif; ?>
+			<form class="item-add" action"add.php" method="post">
+				<input type="text" name="name" placeholder="Type Your Name" class="">
+				<input type="submit" value="Add" class="submit">
+			</form>	
 			<form class="item-add" action"add.php" method="post">
 				<input type="text" name="name" placeholder="Type Your Name" class="">
 				<input type="submit" value="Add" class="submit">
