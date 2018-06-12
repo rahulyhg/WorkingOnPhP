@@ -60,6 +60,12 @@
 <html>
 <head>
 	<title>To Do List</title>
+	<style type="text/css">
+		.done-button{
+			text-decoration: underline;
+		}
+
+	</style>
 </head>
 <body>
 
