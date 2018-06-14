@@ -61,7 +61,7 @@
 <head>
 	<title>To Do List</title>
 
-	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="main.css" type="text/css">
 </head>
 <body>
 
@@ -71,7 +71,7 @@
 
 	<?php if(!empty($items)): ?>
 
-			<ul class="items">	
+			<ul class="items" >	
 
 				<?php foreach($items as $item): ?>
 						<li>
@@ -85,6 +85,8 @@
 					<?php else: ?>
 						<p>You haven´t added any items yet.</p>
 				<?php endif; ?>
+
+				<button class="dodo"></button>
 		<!-- 	<form class="item-add" action"add.php" method="post">
 				<input type="text" name="name" placeholder="Type Your Name" class="">
 				<input type="submit" value="Add" class="submit">
