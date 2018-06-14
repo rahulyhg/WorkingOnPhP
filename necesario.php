@@ -96,6 +96,12 @@
 			margin: 0 0 10px 0;
 		}
 
+		.items{
+			margin:0;
+			padding:0;
+			list-style-type: none;
+		}
+
 	</style>
 </head>
 <body>
