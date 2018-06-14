@@ -60,8 +60,14 @@
 <html>
 <head>
 	<title>To Do List</title>
-
 	<link rel="stylesheet" href="main.css" type="text/css">
+	<style type="text/css">
+		
+		body {
+	background-color: lightgrey;
+}
+
+	</style>
 </head>
 <body>
 
