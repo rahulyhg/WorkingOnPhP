@@ -73,6 +73,15 @@
 			color:#363639;
 		}
 
+		a {
+			text-decoration: none;
+			border-bottom: 1px dashed #363639;
+		}
+
+		/* List */
+
+		
+
 	</style>
 </head>
 <body>
