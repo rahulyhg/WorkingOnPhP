@@ -85,6 +85,8 @@
 			margin: 20px auto;
 			width: 100%;
 			max-width: 500px;
+			padding:20px;
+			box-sizing: border-box;
 		}
 
 	</style>
