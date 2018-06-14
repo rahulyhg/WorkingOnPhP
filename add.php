@@ -7,7 +7,7 @@ if(isset($_POST['name'])){
 
 	if (!empty($name)) {
 		$addedQuery = $mydb->prepare("
-				INSERT INTO items
+				INSERT INTO jodidosTodos(id, user,  category)
 			");
 	}
 }
