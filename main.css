@@ -1,8 +1,8 @@
 body {
-	background-color: #eceff0;
+	background-color: black;
 }
 
-body,
+/*body,
 input {
 	font: 1em "Open Sans", sans-serif;
 	color: "#363639";
@@ -11,4 +11,4 @@ input {
 a{
 	text-decoration: none;
 	border-bottom: 1px dashed #363639;
-}
+}*/
