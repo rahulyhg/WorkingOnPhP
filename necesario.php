@@ -91,6 +91,10 @@
 			box-sizing: border-box;
 		}
 
+		.list .header{
+			font-family: sans-serif;
+		}
+
 	</style>
 </head>
 <body>
