@@ -86,6 +86,8 @@
 			width: 100%;
 			max-width: 500px;
 			padding:20px;
+			border-radius: 2px;
+			
 			box-sizing: border-box;
 		}
 
