@@ -64,7 +64,7 @@
 	<style type="text/css">
 		
 		body {
-	background-color: lightgrey;
+	background-color: #eceff0;
 }
 
 		body, 
@@ -81,7 +81,7 @@
 		/* List */
 
 		.list{
-			background-color: $fff;
+			background-color: #fff;
 			margin: 20px auto;
 			width: 100%;
 			max-width: 500px;
