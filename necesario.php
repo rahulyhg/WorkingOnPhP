@@ -67,6 +67,12 @@
 	background-color: lightgrey;
 }
 
+		body, 
+		input {
+			font: 1em "Open Sans", sans-serif;
+			color:#363639;
+		}
+
 	</style>
 </head>
 <body>
