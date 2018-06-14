@@ -61,11 +61,10 @@
 <head>
 	<title>To Do List</title>
 	<style type="text/css">
-		.done-button{
-			text-decoration: underline;
-		}
+		
 
 	</style>
+	<link rel="stylesheet" href="/main.css">
 </head>
 <body>
 
