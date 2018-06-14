@@ -61,7 +61,7 @@
 <head>
 	<title>To Do List</title>
 
-	<link rel="stylesheet" href="/htdocs/main.css">
+	<link rel="stylesheet" href="main.css">
 </head>
 <body>
 
