@@ -113,7 +113,7 @@
 
 	<div class="list">
 		<h1 class="header">To Do.</h1>
-		
+
 
 	<?php if(!empty($items)): ?>
 
@@ -123,7 +123,7 @@
 						<li>
 							<span class="item<?php echo $item['user'] ? ' done' : '' ?>"><?php echo $item['user']; ?></span><br />
 							<?php if(!$item['user']): ?>
-							<a href="#" class="done-button">jodidos</a>
+							<a href="#" class="done-button">Mark As done</a>
 								<?php endif; ?>
 						</li>
 				<?php endforeach; ?>
