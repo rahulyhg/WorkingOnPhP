@@ -118,7 +118,7 @@
 
 			<ul class="items" >	
 
-			<!-- 	<?php foreach($items as $item): ?> -->
+				<?php foreach($items as $item): ?>
 						<li>
 							<span class="item<?php echo $item['user'] ? ' done' : '' ?>"><?php echo $item['user']; ?></span><br />
 							<?php if(!$item['user']): ?>
