@@ -113,6 +113,7 @@
 
 	<div class="list">
 		<h1 class="header">To Do.</h1>
+		<?php echo $items; ?>
 
 	<?php if(!empty($items)): ?>
 
