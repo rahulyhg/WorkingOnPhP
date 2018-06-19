@@ -118,14 +118,14 @@
 
 			<ul class="items" >	
 
-				<?php foreach($items as $item): ?>
+			<!-- 	<?php foreach($items as $item): ?> -->
 						<li>
 							<span class="item<?php echo $item['user'] ? ' done' : '' ?>"><?php echo $item['user']; ?></span><br />
-							<?php if(!$item['user']): ?>
+							<!-- <?php if(!$item['user']): ?> -->
 							<a href="#" class="done-button">jodidos</a>
-								<?php endif; ?>
+								<!-- <?php endif; ?> -->
 						</li>
-				<?php endforeach; ?>
+				<!-- <?php endforeach; ?> -->
 					</ul>
 					<?php else: ?>
 						<p>You haven´t added any items yet.</p>
