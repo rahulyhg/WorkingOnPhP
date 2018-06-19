@@ -125,7 +125,7 @@
 							<a href="#" class="done-button">jodidos</a>
 								<?php endif; ?>
 						</li>
-				<!-- <?php endforeach; ?> -->
+				<?php endforeach; ?>
 					</ul>
 					<?php else: ?>
 						<p>You haven´t added any items yet.</p>
