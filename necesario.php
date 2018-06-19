@@ -123,7 +123,7 @@
 							<span class="item<?php echo $item['user'] ? ' done' : '' ?>"><?php echo $item['user']; ?></span><br />
 							<?php if(!$item['user']): ?>
 							<a href="#" class="done-button">jodidos</a>
-								<!-- <?php endif; ?> -->
+								<?php endif; ?>
 						</li>
 				<!-- <?php endforeach; ?> -->
 					</ul>
