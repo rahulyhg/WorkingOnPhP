@@ -1,20 +1,6 @@
 
 <?php
-		require_once('index.php');
-
-		$itemsQuery = $db->prepare("
-			SELECT id, user, category
-			FROM jodidosTodos
 		
-			");
-
-		$itemsQuery->execute([
-			'user' =>$_SESSION['user_id']
-		]);
-
-
-
-		$items = $itemsQuery->rowCount() ? $itemsQuery : [];
 
 
 
