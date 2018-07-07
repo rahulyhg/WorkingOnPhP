@@ -1,10 +1,7 @@
 
 <?php
 
-			print_r(PDO::getAvailableDrivers());
-
-
-				require_once('index.php');
+		require_once('index.php');
 
 		$itemsQuery = $db->prepare("
 			SELECT id, user, category
