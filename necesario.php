@@ -19,6 +19,7 @@
 
 		foreach($items as $item){
 			$item['name'];
+			print_r($item);
 		}
 
 
