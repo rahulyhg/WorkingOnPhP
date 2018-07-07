@@ -5,7 +5,7 @@
 
 		$itemsQuery = $db->prepare("
 			SELECT id, user, category
-			FROM employees
+			FROM jodidostodos
 		
 			");
 
