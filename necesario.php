@@ -1,10 +1,14 @@
 
 <?php
-		require_once('index.php');
+
+			print_r(PDO::getAvailableDrivers());
+
+
+				require_once('index.php');
 
 		$itemsQuery = $db->prepare("
 			SELECT id, user, category
-			FROM jodidosTodos
+			FROM employees
 		
 			");
 
