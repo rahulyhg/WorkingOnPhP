@@ -16,6 +16,10 @@
 
 		$items = $itemsQuery->rowCount() ? $itemsQuery : [];
 
+		foreach($items as $item){
+			$item['name'];
+		}
+
 
 
 
