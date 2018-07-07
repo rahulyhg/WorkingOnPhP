@@ -2,7 +2,7 @@
         session_start();
         $_SESSION['user_id'] = 1;
 
-        $db = new PDO('mysql:host=ManuP;dbname=employees', 
+        $db = new PDO('mysql:host=localhost;dbname=employees', 
         'root', 'gatubelo=00');
 
         // Handle this in other way 
