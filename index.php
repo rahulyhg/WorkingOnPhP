@@ -1,7 +1,7 @@
 <?php 
         session_start();
         $_SESSION['user_id'] = 1;
-        if ($db = new PDO('mysql:host=localhost;dbname='jodidostodos', 
+        $db = new PDO('mysql:host=localhost;dbname='jodidostodos', 
         'root', 'gatubelo=00');
 
         // Handle this in other way 
