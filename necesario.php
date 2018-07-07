@@ -19,8 +19,7 @@
 
 		foreach($items as $item){
 			$item['category'];
-			print_r($item);
-		}
+			}
 
 
 
