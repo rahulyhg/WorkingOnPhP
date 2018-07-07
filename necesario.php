@@ -138,11 +138,11 @@
 						<p>You haven´t added any items yet.</p>
 				<?php endif; ?>
 
-				<button class="dodo">haven´t it</button>
-		<!-- 	<form class="item-add" action"add.php" method="post">
+				
+			<form class="item-add" action"add.php" method="post">
 				<input type="text" name="name" placeholder="Type Your Name" class="">
 				<input type="submit" value="Add" class="submit">
-			</form>	 -->
+			</form>	
 
 	</div>
 
