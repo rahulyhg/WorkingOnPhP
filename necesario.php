@@ -10,7 +10,7 @@
 			");
 
 		$itemsQuery->execute([
-			'user' =>$_SESSION['user_id']
+			'user' => $_SESSION['user_id']
 		]);
 
 
@@ -18,7 +18,7 @@
 		$items = $itemsQuery->rowCount() ? $itemsQuery : [];
 
 		foreach($items as $item){
-			$item['name'];
+			$item['category'];
 			print_r($item);
 		}
 
