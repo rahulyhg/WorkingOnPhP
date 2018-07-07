@@ -3,7 +3,7 @@
         $_SESSION['user_id'] = 1;
 
         $db = new PDO('mysql:host=localhost;dbname=employees', 
-        'root', 'gatubelo=00');
+        'root', 'root');
 
         // Handle this in other way 
 
