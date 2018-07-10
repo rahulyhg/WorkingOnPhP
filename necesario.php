@@ -125,8 +125,14 @@
 
 			<ul class="items" >	
 
-				<li><?php echo $item['category'] ?></li>
-				<li>test2</li>
+				<?php foreach($item as $items): ?>
+						<li>
+							<span class="item<?php echo $item['category'] ? ' category' : '' ?>"><?php echo $item['user']; ?></span><br />
+							<?php if(!$item['done']): ?>
+							<a href="#" class="done-button">Mark As done</a>
+							 <?php endif; ?> 
+						</li>
+				<?php endforeach; ?>
 
 
 					</ul>
