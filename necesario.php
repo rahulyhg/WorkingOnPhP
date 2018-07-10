@@ -18,8 +18,8 @@
 		$items = $itemsQuery->rowCount() ? $itemsQuery : [];
 
 		foreach($items as $item){
-			// $item['category'];
-			print_r($item);
+			$item['category'];
+			// print_r($item);
 			}
 
 
@@ -125,14 +125,14 @@
 
 			<ul class="items" >	
 
-				<?php foreach($items as $item): ?>
+				<!-- <?php foreach($items as $item): ?> -->
 						<li>
-							<span class="item<?php echo $item['category'] ? ' done' : '' ?>"><?php echo $item['user']; ?></span><br />
+							<span class="item<!-- <?php echo $item['category'] ? ' done' : '' ?>" -->><?php echo $item['user']; ?></span><br />
 							<?php if(!$item['done']): ?>
 							<a href="#" class="done-button">Mark As done</a>
 							 <?php endif; ?> 
 						</li>
-				<?php endforeach; ?>
+			<!-- 	<?php endforeach; ?> -->
 
 
 					</ul>

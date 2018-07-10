@@ -22,3 +22,12 @@ if(isset($_POST['name'])){
 header('Location: index.php');
 
 ?>
+
+<?php foreach($items as $item): ?>
+						<li>
+							<span class="item<?php echo $item['category'] ? ' done' : '' ?>"><?php echo $item['user']; ?></span><br />
+							<?php if(!$item['done']): ?>
+							<a href="#" class="done-button">Mark As done</a>
+							 <?php endif; ?> 
+						</li>
+				<?php endforeach; ?>
