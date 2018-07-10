@@ -125,7 +125,7 @@
 
 			<ul class="items" >	
 
-				<li>test</li>
+				<li><?php echo $item['category'] ?></li>
 				<li>test2</li>
 
 
