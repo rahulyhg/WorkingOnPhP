@@ -127,11 +127,13 @@
 				<?php foreach($items as $item): ?>
 						<li>
 							<span class="item<?php echo $item['category'] ? ' done' : '' ?>"><?php echo $item['user']; ?></span><br />
-							<?php if(!$item['done']): ?>
+							<?php if(!$item['category']): ?>
 							<a href="#" class="done-button">Mark As done</a>
 							 <?php endif; ?> 
 						</li>
 				<?php endforeach; ?>
+
+
 					</ul>
 					<?php else: ?>
 						<p>You haven´t added any items yet.</p>
