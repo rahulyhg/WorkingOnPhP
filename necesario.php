@@ -127,7 +127,7 @@
 
 				<?php foreach($item as $items): ?>
 						<li>
-							<span class="item<?php echo $item['category'] ? ' category' : '' ?>"><?php echo $item['user']; ?></span><br />
+							<span class="item<?php echo $item['category'] ? ' done' : '' ?>"><?php echo $item['user']; ?></span><br />
 							<?php if(!$item['done']): ?>
 							<a href="#" class="done-button">Mark As done</a>
 							 <?php endif; ?> 
