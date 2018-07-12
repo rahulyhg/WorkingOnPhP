@@ -17,10 +17,10 @@
 
 		$items = $itemsQuery->rowCount() ? $itemsQuery : [];
 
-		// foreach($items as $item){
-		// 	$item['category'];
-		// 	// print_r($item);
-		// 	}
+		foreach($items as $item){
+			$item['category'];
+			// print_r($item);
+			}
 
 
 
