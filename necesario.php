@@ -18,47 +18,9 @@
 		$items = $itemsQuery->rowCount() ? $itemsQuery : [];
 
 		foreach($items as $item){
-			$item['category'];
+			$item['id'];
 			// print_r($item);
 			}
-
-
-
-
-		// foreach($items as $item){
-		// 	 // echo $item['user'], '<br>', $item['category'];
-
-		// 	// print_r($item);
-		// }
-
-		// foreach($items as $item){
-		// 	echo $item['user'], '<br>';
-			
-		// }
-
-
-
-		// $link = 'mysql:host=localhost;dbname=mydb';
-		// $usuario =  'root';
-		// $pass = 'gatubelo=00';
-
-		// try{
-		// 		$db = new PDO($link
-  //       ,$usuario, $pass);
-
-		// 		echo 'Conectado'; 
-
-				
-
-		// } catch(PDOException $e){
-		// 	print "Error!: " .$e->getMessage()."<br/>";
-		// 	die();
-		// }
-
-
-
-
-
 
 ?>
 
