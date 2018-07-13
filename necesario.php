@@ -19,7 +19,7 @@
 
 		foreach($items as $item){
 			$item['id'];
-			print_r($item);
+			// print_r($item);
 			}
 
 
