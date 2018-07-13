@@ -18,7 +18,7 @@
 		$items = $itemsQuery->rowCount() ? $itemsQuery : [];
 
 		foreach($items as $item){
-			$items['id'];
+			$item['id'];
 			// print_r($item);
 			}
 
