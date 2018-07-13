@@ -85,11 +85,11 @@
 
 	<?php if(!empty($items)): ?>
 
-			<ul class="items" >	
+			<ul class="item" >	
 
 				<?php foreach($item as $items): ?>
 						<li>
-							<span class="item<?php echo $item['category'] ? ' user' : '' ?>"><?php echo $item['user']; ?></span><br />
+							<span class="item<?php echo $item['id'] ? ' user' : '' ?>"><?php echo $item['user']; ?></span><br />
 							<?php if(!$item['category']): ?>
 							<a href="#" class="done-button">Mark As done</a>
 							 <?php endif; ?> 
