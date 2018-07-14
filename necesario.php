@@ -89,7 +89,7 @@
 
 			<ul class="item" >	
 
-				<?php foreach($item as $items): ?>
+				<?php foreach($items as $item): ?>
 						<li>
 							<span class="item<?php echo $item['id'] ? ' user' : '' ?>"><?php echo $item['id']; ?></span><br />
 							<?php if(!$item['category']): ?>
