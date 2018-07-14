@@ -6,7 +6,7 @@
 		$itemsQuery = $db->prepare("
 			SELECT id, user, category
 			FROM jodidostodos
-			where := user;
+			where := user
 			");
 
 		$itemsQuery->execute([
