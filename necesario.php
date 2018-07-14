@@ -1,4 +1,4 @@
-
+ 
 <?php
 
 		require_once('index.php');
@@ -6,7 +6,7 @@
 		$itemsQuery = $db->prepare("
 			SELECT id, user, category
 			FROM jodidostodos
-		
+			where = user;
 			");
 
 		$itemsQuery->execute([
