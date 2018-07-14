@@ -15,12 +15,14 @@
 
 
 
-		$items = $itemsQuery->rowCount() ? $itemsQuery : []
+		$items = $itemsQuery->rowCount() ? $itemsQuery : [];
 
-		foreach($items as $item){
-			$item['id'];
-			// print_r($item);
-			}
+		// foreach($items as $item){
+		// 	$item['id'];
+		
+		// 	}
+
+
 
 ?>
 
