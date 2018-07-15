@@ -71,10 +71,10 @@
 			padding:0;
 			list-style-type: none;
 		}
-
+/*
 		.done-button {
 			display: inline-block;
-		}
+		}*/
 
 	</style>
 </head>
