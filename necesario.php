@@ -97,8 +97,8 @@
 							 <?php endif; ?> 
 						</li>
 						<!-- <div style="background-color: grey;">
-						<!-- 	<?php echo $items?> -->
-						</div> -->
+						<!-- 	<?php  $items?> -->
+						<!-- </div> --> -->
 				<?php endforeach; ?>
 
 
