@@ -96,6 +96,9 @@
 							<a <!-- href="#" class="done-button" -->>Mark As done</a>
 							 <?php endif; ?> 
 						</li>
+						<div style="background-color: grey;">
+							
+						</div>
 				<?php endforeach; ?>
 
 
