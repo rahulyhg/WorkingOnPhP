@@ -96,9 +96,9 @@
 							<a <!-- href="#" class="done-button" -->>Mark As done</a>
 							 <?php endif; ?> 
 						</li>
-						<div style="background-color: grey;">
+						<!-- <div style="background-color: grey;">
 						<!-- 	<?php echo $items?> -->
-						</div>
+						</div> -->
 				<?php endforeach; ?>
 
 
