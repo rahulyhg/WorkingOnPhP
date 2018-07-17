@@ -90,11 +90,11 @@
 			<ul class="item" >	
 
 				<?php foreach($items as $item): ?>
-						<li>
+						<li><a href="#" class="done-button"
+								>
 							<span class="item<?php echo $item['category'] ? ' category' : '' ?>"><?php echo $item['category']; ?></span><br />
 							<?php if(!$item['category']): ?>
-							<a 
-								>Mark As done</a>
+							Mark As done</a>
 							 <?php endif; ?> 
 						</li>
 						<!-- <div style="background-color: grey;">
