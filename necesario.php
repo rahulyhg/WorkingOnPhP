@@ -93,13 +93,13 @@
 				<?php foreach($items as $item): ?>
 						<li>
 							<span class="item<?php echo $item['category'] ? ' category' : '' ?>"><?php echo $item['category']; ?></span><br />
-							<?php if(!$item['id']): ?><
+							<?php if(!$item['id']): ?><a href="#" class="done-button"
 								>
 							Mark As done</a>
 							 <?php endif; ?> 
 						</li>
-						<div style="background-color: grey;">
-						<!-- 	<?php  $items?>
+						<!-- <div style="background-color: grey;">
+						<!-- 	<?php  $items?> -->
 						<!-- </div> --> 
 				<?php endforeach; ?>
 
