@@ -74,6 +74,7 @@
 
 		.done-button {
 			display: inline-block;
+			text-decoration: overline;
 		}
 
 	</style>
