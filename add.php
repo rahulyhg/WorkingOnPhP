@@ -13,7 +13,7 @@ if(isset($_POST['user'])){
 			");
 
 		$addedQuery->execute([
-				'name' => $name, 
+				'user' => $name, 
 				'user' => $_SESSION['user_id']
 		]);
 	}
