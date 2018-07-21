@@ -74,7 +74,7 @@
 
 		.done-button {
 			display: inline-block;
-			text-decoration: overline;
+			text-decoration: underline;
 		}
 
 	</style>
@@ -98,8 +98,8 @@
 							Mark As done</a>
 							 <?php endif; ?> 
 						</li>
-						<div style="background-color: grey;">
-						<!-- 	<?php  $items?>
+						<!-- <div style="background-color: grey;">
+						<!-- 	<?php  $items?> -->
 						<!-- </div> --> 
 				<?php endforeach; ?>
 
