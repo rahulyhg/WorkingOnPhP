@@ -93,7 +93,9 @@
 				<?php foreach($items as $item): ?>
 						<li>
 							<span class="item<?php echo $item['category'] ? ' category' : '' ?>"><?php echo $item['category']; ?></span><br />
-						<!-- 	<?php if(!$item['category']): ?> -->
+						<!-- 	<?php if(!$item['category']): ?> --><a href="#" class="done-button"
+								>
+							Mark As done</a>
 							 <?php endif; ?> 
 						</li>
 						<!-- <div style="background-color: grey;">
@@ -101,9 +103,7 @@
 						<!-- </div> --> 
 				<?php endforeach; ?>
 
-<a href="#" class="done-button"
-								>
-							Mark As done</a>
+
 					</ul>
 					<?php else: ?>
 						<p>You haven´t added any items yet.</p>
