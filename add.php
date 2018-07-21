@@ -3,7 +3,7 @@
 require_once'index.php';
 
 if(isset($_POST['user'])){
-	$name = trim($_POST['name']);
+	$name = trim($_POST['user']);
 
 	if (!empty($name)) {
 		$addedQuery = $mydb->prepare("
