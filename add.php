@@ -12,11 +12,11 @@ if(isset($_POST['user'])){
 				(:id, :user, :category NOW())
 			");
 
-		$addedQuery->execute([
-				'user' => $name, 
-				'user' => $_SESSION['user_id']
-		]);
-	}
+	// 	$addedQuery->execute([
+	// 			'user' => $name, 
+	// 			'user' => $_SESSION['user_id']
+	// 	]);
+	// }
 }
 
 header('Location: index.php');
