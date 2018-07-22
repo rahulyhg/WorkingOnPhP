@@ -6,11 +6,11 @@ if(isset($_POST['user'])){
 	$name = trim($_POST['user']);
 
 	if (!empty($name)) {
-		$addedQuery = $mydb->prepare("
-				INSERT INTO jodidosTodos(id, user,  category)
-				values 
-				(:id, :user, :category NOW())
-			");
+		// $addedQuery = $mydb->prepare("
+		// 		INSERT INTO jodidosTodos(id, user,  category)
+		// 		values 
+		// 		(:id, :user, :category NOW())
+		// 	");
 
 		$addedQuery->execute([
 				'user' => $name, 
