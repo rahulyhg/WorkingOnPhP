@@ -30,6 +30,7 @@
 <html>
 <head>
 	<title>To Do List</title>
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="main.css" type="text/css">
 	<style type="text/css">
 		
