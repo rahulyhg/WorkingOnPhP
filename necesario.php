@@ -110,7 +110,7 @@
 					<?php else: ?>
 						<p>You haven´t added any items yet.</p>
 				<?php endif; ?>
- 		<p>You haven´t added any items yet.</p>		<p>You haven´t added any items yet.</p>
+ 
 				
 			<form class="item-add" action"add.php" method="post">
 				<input type="text" name="name" placeholder="Type Your Name" class="">
