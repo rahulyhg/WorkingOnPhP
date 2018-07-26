@@ -113,7 +113,7 @@
  
 				
 			<form class="item-add" action"add.php" method="post">
-				<input type="text" name="name" placeholder="Type Your Name" class="">
+				<input type="text" name="name" placeholder="Type Your Name" class="input" autocomplete="off" required="">
 				<input type="submit" value="Add" class="submit">
 			</form>	
 
