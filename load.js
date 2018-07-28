@@ -11,3 +11,5 @@
 // 	let term = userInput.value();
 // 	console.log(term);
 // }
+
+alert('alert');
