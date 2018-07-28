@@ -15,7 +15,7 @@
 
 </head>
 <body>
-			<h1>Wikipedia Coding Challengue</h1>
+			<h2>Wikipedia Coding Challengue</h2>
 
 			<p>
 				
