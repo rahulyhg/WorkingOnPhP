@@ -12,4 +12,4 @@
 // 	console.log(term);
 // }
 
-alert('alert');
+alert('manuel probando javacript!!!!--<<<');
