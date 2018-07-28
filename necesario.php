@@ -26,10 +26,7 @@
 			</p>
 
 			<p onclick="alert('Hello dev code')">Click</p>
-			<script>
-		
-		alert("document ready???");
-	</script>
+	
 </body>
 </html>
 
