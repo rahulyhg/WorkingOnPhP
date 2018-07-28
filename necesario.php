@@ -18,7 +18,7 @@
 
 </head>
 <body>
-			<h2>Wikipedia Coding Challengue</h2>
+			<h2 id="tested">Wikipedia Coding Challengue</h2>
 
 			<p>
 				
@@ -26,7 +26,7 @@
 			</p>
 
 			<p onclick="alert('Hello dev code')">Click</p>
-	
+
 </body>
 </html>
 
