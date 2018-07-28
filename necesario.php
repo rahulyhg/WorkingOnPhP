@@ -12,7 +12,10 @@
 	<script src="libraries/p5.dom.js"></script>
 	<script src="libraries/p5.sound.js"></script>
 	<script src="load.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.dom.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.dom.js" integrity="sha256-lpkzOu2ucxGfpjxXEmSvpF8mPlp1kYoDtJHoEjicaAg=" crossorigin="anonymous"></script>
+
+
 </head>
 <body>
 			<h2>Wikipedia Coding Challengue</h2>
@@ -21,6 +24,12 @@
 				
 				word: <input id="userInput" value="rainbow"></input>
 			</p>
+
+			<p onclick="alert('Hello dev code')">Click</p>
+			<script>
+		
+		alert("document ready???");
+	</script>
 </body>
 </html>
 
