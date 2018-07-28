@@ -1,13 +1,13 @@
-let userInput;
+// let userInput;
 
-function setup(){
-	noCanvas();
-	userInput = select('#userInput');
-	userInput.changed(goWiki);
-	goWiki();
-}
+// function setup(){
+// 	noCanvas();
+// 	userInput = select('#userInput');
+// 	userInput.changed(goWiki);
+// 	goWiki();
+// }
 
-function goWiki(){
-	let term = userInput.value();
-	console.log(term);
-}
+// function goWiki(){
+// 	let term = userInput.value();
+// 	console.log(term);
+// }
