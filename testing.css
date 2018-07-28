@@ -1,0 +1,25 @@
+/*body {
+	background-color: black;
+}
+
+body,
+input {
+	font: 1em "Open Sans", sans-serif;
+	color: "#363639";
+}
+
+a{
+	text-decoration: none;
+	border-bottom: 1px dashed #363639;
+}
+
+
+
+.dodo{
+	color: blue;
+	size:12em;
+}*/
+
+#tested{
+	text-decoration: line-through;
+}

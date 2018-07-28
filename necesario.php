@@ -15,7 +15,7 @@
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.dom.js" integrity="sha256-lpkzOu2ucxGfpjxXEmSvpF8mPlp1kYoDtJHoEjicaAg=" crossorigin="anonymous"></script>
 
-
+	<style type="text/css" src="testing.css"></style>
 </head>
 <body>
 			<h2 id="tested">Wikipedia Coding Challengue</h2>
