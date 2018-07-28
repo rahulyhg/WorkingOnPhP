@@ -4,6 +4,7 @@ function setup(){
 	noCanvas();
 	userInput = select('#userInput');
 	userInput.changed(goWiki);
+	goWiki();
 }
 
 function goWiki(){
