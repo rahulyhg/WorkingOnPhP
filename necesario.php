@@ -15,7 +15,12 @@
 
 </head>
 <body>
+			<h1>Wikipedia Coding Challengue</h1>
 
+			<p>
+				
+				word: <input id="userInput"></input>
+			</p>
 </body>
 </html>
 
